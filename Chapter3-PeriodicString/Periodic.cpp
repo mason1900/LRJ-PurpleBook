@@ -20,42 +20,20 @@ int main()
 		T -= 1;
 		char s[100];
 		scanf("%s", s);
-		int result = 0;
-		for (int i = 1; i < (int)strlen(s); i++)
+		int len = strlen(s);
+		for (int i = 1; i < len + 1; i++)
 		{
-			bool equal = true;
-			if (s[i] == s[0])
+			bool flag = true;
+			for (int j = 0; j < len; j++)
 			{
-				int  j = i;
-				int  start = 0;
-				while (j< (int)strlen(s))
-				{
-					if (j - start == 1)
-					{
-						if (s[j] != s[start]) equal = false;
-					}
-					for (int k = 1; k < j - start; k++)
-					{
-						if ((j+k) >= (int)strlen(s)) equal = false;
-						else if (s[start + k] != s[j + k]) equal = false;
-					}
-					if (equal)
-					{
-						start = j;
-						j = j + i;
-					}
-					else break;
-				}
-				if (equal) {
-					result = i;
-					printf("%d\n", i);
-					break;
-				}
+				if (s[j] != s[(j+i) % len]) flag = false;
 			}
-
+			if (flag)
+			{
+				printf("%d\n", i);
+				break;
+			}
 		}
-
-		if (result == 0) printf("%d\n", strlen(s));
 		if (T) printf("\n");
 	}
 
