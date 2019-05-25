@@ -26,4 +26,7 @@
 - Uva 227 Puzzle
 - Uva 232 Crossword Answers
 - Uva 1368 DNA Consensus String
+- UVa 202 Repeating Decimals
+- Uva 10340 All in All
+- Uva 1587 Box 
 
