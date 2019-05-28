@@ -6,9 +6,16 @@
 
 ### Training Plan:
 - In general: `Algorithm and Data Structure` => `Data mining interview questions` => `Probability and Statistics` => `Advanced Machine Learning Topics`
+
 - This training material only contains `Algorithm and Data Structure`. I used it several years ago when I was preparing for algorithm contest `ACM-ICPC`. I forgot most of the contents though.
+
 - I prefer a step-by-step, systematic and solid training with this book. But I may use LeetCode 3 or 4 weeks later. In Python & C++.
+
 - `Algorithm and Data structure` training plan: `simulations` => `some C++ STL` => `data structure` => `advanced algorithm` . Language:  `C++` and/or `Python`.
+
+### About Coding Style
+
+It is well known that some commonly accepted coding style for algorithm programming contest is **NOT** suitable for software engineering. For example,  global variables, hacky methods/implementations like memcmp and memcpy, etc. Please also be advised that some of the contents in this book is out-of-date (published 7 years ago) and may not be very helpful for many people. Now there is the C++17 standard and very powerful IDEs. Most OJ platforms now accepts C++11, which includes many important new features like `auto` keyword and `Lambda expressions`.  This repo focuses on alorithm & data structure only and does not pay a lot of attention to the language features.  
 
 ### Problem List:
 
@@ -30,3 +37,8 @@
 - Uva 10340 All in All
 - Uva 1587 Box 
 
+#### Chapter 4
+
+- Uva 1339 Ancient Cipher
+- Uva 489 Hangman Judge 
+- Uva 133 The Dole Queue 
