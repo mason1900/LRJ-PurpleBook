@@ -15,9 +15,13 @@
 
 ### About Coding Style
 
-It is well known that some commonly accepted coding style for algorithm programming contest is **NOT** suitable for software engineering. For example,  global variables, hacky methods/implementations like memcmp and memcpy, etc. Please also be advised that some of the contents in this book is out-of-date (published 7 years ago) and may not be very helpful for many people. Now there is the C++17 standard and very powerful IDEs. Most OJ platforms now accepts C++11, which includes many important new features like `auto` keyword and `Lambda expressions`.  This repo focuses on alorithm & data structure only and does not pay a lot of attention to the language features.  
+It is well known that some commonly accepted coding style for algorithm programming contest is **NOT** suitable for software engineering. For example,  global variables, hacky methods/implementations like memcmp and memcpy, etc. Please also be advised that some of the contents in this book is out-of-date (published 5 years ago) and may not be very helpful for many people. Now there is the C++17 standard and very powerful IDEs. Most OJ platforms now accepts C++11, which includes many important new features like `auto` keyword and `Lambda expressions`.  This repo focuses on alorithm & data structure only and does not pay a lot of attention to the language features.  
 
 ### Problem List:
+
+#### Chapter 2:
+
+- Miscellaneous problems
 
 #### Chapter 3:
 
