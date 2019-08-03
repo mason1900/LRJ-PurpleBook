@@ -45,4 +45,6 @@ It is well known that some commonly accepted coding style for algorithm programm
 
 - Uva 1339 Ancient Cipher
 - Uva 489 Hangman Judge 
-- Uva 133 The Dole Queue 
+- Uva 133 The Dole Queue
+- Uva 213 Message Decoding 
+
